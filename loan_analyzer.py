@@ -90,7 +90,7 @@ print(loan.get("future_value"), ("remaining_months")
 #   You'll want to use the **monthly** version of the present value formula.
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 # YOUR CODE HERE!
-#noncode 1000 / (1+.(.20/12))^9
+#noncode 1000 / (1+(.20/12))^9
 present_value = future_value / 1+(discount_rate/12) ** (remaining_months)
 
 
